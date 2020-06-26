@@ -1,0 +1,115 @@
+html {
+  background-color: green;
+}
+img {
+  margin: 0 auto;
+  image-rendering: optimizeQuality;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 75px;
+  margin: 10px;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+  text-align: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #ffc04c;
+}
+
+#introText {
+  padding-top: 20px;
+  color: white;
+  float: left;
+  font-size: 60px;
+}
+
+/* Welcome Text */
+#welcome {
+  font-size: 50px;
+  font-weight: 300;
+  color: brown;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Input Form */
+#inputForm {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.form-group textarea {
+  width: 400px;
+  height: auto;
+}
+
+/* Burger lists */
+/*Devoured burgers*/
+#burgersAdded {
+  list-style-type: decimal;
+  text-align: left;
+}
+#burgersDevoured {
+  list-style-type: decimal;
+  text-align: left;
+}
+
+#burgerLog {
+  margin: auto;
+  padding-top: 20px;
+}
+/*Burger Log*/
+#burgersHeader {
+  text-align: auto;
+  font-size: 60px;
+  color: black;
+  font-weight: 300;
+}
+
+}
+/* Mobile styling */
+@media only screen and (max-width: 750px) {
+  /* Remove original icon */
+  #introBurger {
+    display: none;
+  }
+
+  /* App Name */
+  #introText {
+    padding-top: 50px;
+    color: white;
+    clear: both;
+    font-size: 60px;
+  }
+
+  /* Burger Icon */
+  #mobileBurger {
+    width: 173px;
+    padding-top: 15px;
+  }
+
+  #mobileBurgerHolder {
+    text-align: center;
+  }
+}
+
+/* Medium screen styling */
+@media only screen and (min-width: 751px) {
+  /* Burger Icon styling */
+  #mobileBurger {
+    width: 173px;
+    padding-top: 15px;
+  }
+
+  #mobileBurgerHolder {
+    display: none;
+  }
+}
